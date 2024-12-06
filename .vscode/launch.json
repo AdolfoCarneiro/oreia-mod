@@ -6,10 +6,10 @@
       "name": "runClient",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "forge-1.20.6-50.1.23-mdk",
+      "projectName": "oreia-mod",
       "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003dexamplemod -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem -XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
-      "args": "--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 16 --assetsDir C:\\Users\\adolf\\.gradle\\caches\\forge_gradle\\assets --gameDir .",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003doreia -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem -XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
+      "args": "--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 16 --assetsDir C:\\Users\\Adolfo\\.gradle\\caches\\forge_gradle\\assets --gameDir .",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
         "MCP_MAPPINGS": "official_1.20.6"
@@ -21,10 +21,10 @@
       "name": "runData",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "forge-1.20.6-50.1.23-mdk",
+      "projectName": "oreia-mod",
       "cwd": "${workspaceFolder}\\run-data",
       "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Djava.net.preferIPv6Addresses\u003dsystem",
-      "args": "--launchTarget forge_userdev_data --assetIndex 16 --assetsDir C:\\Users\\adolf\\.gradle\\caches\\forge_gradle\\assets --gameDir . --mod examplemod --all --output C:\\Users\\adolf\\Downloads\\forge-1.20.6-50.1.23-mdk\\src\\generated\\resources --existing C:\\Users\\adolf\\Downloads\\forge-1.20.6-50.1.23-mdk\\src\\main\\resources",
+      "args": "--launchTarget forge_userdev_data --assetIndex 16 --assetsDir C:\\Users\\Adolfo\\.gradle\\caches\\forge_gradle\\assets --gameDir . --mod oreia --all --output D:\\Dev\\Mods\\oreia-mod\\src\\generated\\resources --existing D:\\Dev\\Mods\\oreia-mod\\src\\main\\resources",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
         "MCP_MAPPINGS": "official_1.20.6"
@@ -36,9 +36,9 @@
       "name": "runGameTestServer",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "forge-1.20.6-50.1.23-mdk",
+      "projectName": "oreia-mod",
       "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003dexamplemod -Djava.net.preferIPv6Addresses\u003dsystem",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003doreia -Djava.net.preferIPv6Addresses\u003dsystem",
       "args": "--launchTarget forge_userdev_server_gametest --gameDir .",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
@@ -51,9 +51,9 @@
       "name": "runServer",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "forge-1.20.6-50.1.23-mdk",
+      "projectName": "oreia-mod",
       "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003dexamplemod -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dREGISTRIES -Dforge.enabledGameTestNamespaces\u003doreia -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem",
       "args": "--launchTarget forge_userdev_server --gameDir . --nogui",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
